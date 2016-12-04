@@ -4,7 +4,7 @@ Simple tool to inject configuration into classes.
 
 ## Example:
 
-```
+```python
 import cfg
 
 config = cfg.Config()

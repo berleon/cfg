@@ -1,5 +1,7 @@
 # cfg
 
+[![Build Status](https://travis-ci.org/berleon/cfg.svg?branch=master)](https://travis-ci.org/berleon/cfg)
+
 Simple tool to inject configuration into classes.
 
 ## Example:

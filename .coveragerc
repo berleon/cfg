@@ -1,0 +1,13 @@
+# .coveragerc to control coverage.py
+[run]
+branch = False
+source =
+    cfg
+
+#omit =
+#    fish_net/scripts/*
+
+[report]
+
+[html]
+directory = htmlcov

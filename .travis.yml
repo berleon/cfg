@@ -1,0 +1,12 @@
+sudo: false
+language: python
+python:
+- '3.4'
+- '3.5'
+install:
+- pip install pytest pytest-cov pytest-flakes pytest-xdist pytest-benchmark python-coveralls
+- pip install -e .
+script:
+- cd py.test
+after_success:
+- coveralls
